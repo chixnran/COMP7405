@@ -62,8 +62,8 @@ $$
 - Covariance of X and Z
 
 $$
-Cov(X,Z)=\mathbb{E}((X-\mathbb{E}(X))(Z-\mathbb{E}(Z))) \\ 
-\qquad = \mathbb{E}(XZ) - \mathbb{E}(X)\mathbb{E}(Z) \\
+Cov(X,Z)=\mathbb{E}((X-\mathbb{E}(X))(Z-\mathbb{E}(Z)))
+= \mathbb{E}(XZ) - \mathbb{E}(X)\mathbb{E}(Z) \\
 = \rho(Var(X)+\mathbb{E}(X)^2) + \sqrt{1-\rho^2}\mathbb{E}(XY)-\mathbb{E}(X)(\rho \mathbb{E}(X) +\sqrt{1-\rho^2}\mathbb{E}(Y))\\
 = \rho Var(X)+\sqrt{1-\rho^2}Cov(X,Y)
 $$
