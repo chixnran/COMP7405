@@ -26,36 +26,48 @@ The **put option** price is positively correlated to strike price, maturity and 
 ## 2.1
 To calculate the covariance of X and Z, we need the value of the mean and variance of Z.  
 For X and Y are two independent standard normal random variables, 
+
 $$
 \mathbb{E}(X)= \mathbb{E}(Y)=0 \\
 Var(X)=Var(Y)=1\\
 Cov(X,Y)=0
 $$
+
 - Mean of Z
+
 $$
 \mathbb{E}(Z) = \mathbb{E}(\rho X + \sqrt{1-\rho^2}Y) = \rho \mathbb{E}(X) +\sqrt{1-\rho^2}\mathbb{E}(Y)
 $$
+
 - Variance of Z
+
 $$
 Var(Z) = Var(\rho X + \sqrt{1-\rho^2}Y)=\rho^2Var(X)+(1-\rho^2)Var(Y)=1
 $$
+
 - Value of XZ
+
 $$
 XZ = \rho X^2 +\sqrt{1-\rho^2}XY \\ 
 $$
+
 - Mean of XZ
+
 $$
 \mathbb{E}(XZ) = \rho\mathbb{E}(X^2)+\sqrt{1-\rho^2}\mathbb{E}(XY) \\ 
 =\rho(Var(X)+\mathbb{E}(X)^2) + \sqrt{1-\rho^2}\mathbb{E}(XY) \\
 = \rho(Var(X)+\mathbb{E}(X)^2) + \sqrt{1-\rho^2}(Cov(X,Y)+\mathbb{E}(X)\mathbb{E}(Y)) 
 $$
+
 - Covariance of X and Z
+
 $$
 Cov(X,Z)=\mathbb{E}((X-\mathbb{E}(X))(Z-\mathbb{E}(Z))) \\ 
 \qquad = \mathbb{E}(XZ) - \mathbb{E}(X)\mathbb{E}(Z) \\
 = \rho(Var(X)+\mathbb{E}(X)^2) + \sqrt{1-\rho^2}\mathbb{E}(XY)-\mathbb{E}(X)(\rho \mathbb{E}(X) +\sqrt{1-\rho^2}\mathbb{E}(Y))\\
 = \rho Var(X)+\sqrt{1-\rho^2}Cov(X,Y)
 $$
+
 - $\rho$(X,Z)  
 To avoid the same notation, denote the correlation coefficient of X and Z as corr(X,Z)
 
@@ -68,8 +80,3 @@ $$
 
 
 ## 2.2
-
-
-```python
-
-```
