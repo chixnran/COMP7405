@@ -29,23 +29,29 @@ The **put option** price is positively correlated to strike price, maturity and 
 ## 2.1
 To calculate the covariance of X and Z, we need the value of the mean and variance of Z.  
 For X and Y are two independent standard normal random variables, 
+
 $$
 \mathbb{E}(X)= \mathbb{E}(Y)=0 \\
 Var(X)=Var(Y)=1\\
 Cov(X,Y)=0
+
 $$
 - Mean of Z
+  
 $$
 \mathbb{E}(Z) = \mathbb{E}(\rho X + \sqrt{1-\rho^2}Y) = \rho \mathbb{E}(X) +\sqrt{1-\rho^2}\mathbb{E}(Y)
 $$
 - Variance of Z
+  
 $$
 Var(Z) = Var(\rho X + \sqrt{1-\rho^2}Y)=\rho^2Var(X)+(1-\rho^2)Var(Y)=1
 $$
+
 - Value of XZ
 $$
 XZ = \rho X^2 +\sqrt{1-\rho^2}XY \\ 
 $$
+
 - Mean of XZ
 $$
 \mathbb{E}(XZ) = \rho\mathbb{E}(X^2)+\sqrt{1-\rho^2}\mathbb{E}(XY) \\ 
