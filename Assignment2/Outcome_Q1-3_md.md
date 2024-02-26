@@ -83,19 +83,19 @@ $$
 
 
 ## 2.2 
-[code question 2.2](sourcecode.ipynb#Question-2)
+[code question 2.2](Assignment2/sourcecode.ipynb#Question-2)
 
 # Question 3
 ## 3.1
-[code question 3.1](sourcecode.ipynb#Question-3.1)
+[code question 3.1](Assignment2/sourcecode.ipynb#Question-3.1)
 ## 3.2
 ### 3.2.1
-[code question 3.2.1](ourcecode.ipynb#Question-3.1#3.2.1)<br/>
-[31.csv](31.csv)<br/>
-[32.csv](32.csv)<br/>
-[33.csv](33.csv)<br/>
+[code question 3.2.1](Assignment2/ourcecode.ipynb#Question-3.1#3.2.1)<br/>
+[31.csv](Assignment2/31.csv)<br/>
+[32.csv](Assignment2/32.csv)<br/>
+[33.csv](Assignment2/33.csv)<br/>
 ### 3.2.2
-[code question 3.2.2](ourcecode.ipynb#Question-3.1#3.2.2)<br/>
+[code question 3.2.2](Assignment2/ourcecode.ipynb#Question-3.1#3.2.2)<br/>
 09:31:00
 ![31.png](attachment:31.png)
 
