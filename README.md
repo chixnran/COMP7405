@@ -1,5 +1,20 @@
-# Assignment 2
-## Numerical Results 
-The numerical results and analysis of all of the 3 questions are put into a jupyter notebook file [Results](Assignment2/Results.ipynb)
-## Sourcecode
-The sourcecode of all the questions are in file [sourcecode](Assignment2/sourcecode.ipynb)
+# Assignment 3 
+## UI
+We try to build a simple browser-based GUI application with PyWebIO, which provides a series of imperative functions to obtain user input and output on the browser, turning the browser into a "rich text terminal".
+
+## Installation
+
+Stable version:
+
+```bash
+pip3 install -U pywebio
+```
+
+Development version:
+```bash
+pip3 install -U https://github.com/pywebio/PyWebIO/archive/dev-release.zip
+```
+
+**Prerequisites**: PyWebIO requires Python 3.5.2 or newer
+
+## Quickstart
